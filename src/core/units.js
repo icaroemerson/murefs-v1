@@ -1,0 +1,1 @@
+export const cmToM = (v)=>Number(v??0)/100; export const mmToM=(v)=>Number(v??0)/1000; export const mToCm=(v)=>Number(v??0)*100; export const deg2rad=(x)=>(Number(x)*Math.PI)/180; export const safeNum=(x,def=0)=> (x===''||x==null?def:Number(x));

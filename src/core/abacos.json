@@ -1,0 +1,35 @@
+{
+  "cover_mm": 25,
+  "minima": {
+    "bar_diameter_mm": {
+      "vertical": 10,
+      "horizontal": 8
+    },
+    "spacing_mm": {
+      "min": 100,
+      "max": 200
+    }
+  },
+  "anchorage": {
+    "lb_basic_mm_per_d": {
+      "CA-50": 40
+    }
+  },
+  "steel": {
+    "fy_MPa": 500,
+    "class": "CA-50"
+  },
+  "concrete": {
+    "fck_MPa": 25,
+    "gamma_c_kN_m3": 24
+  },
+  "limits": {
+    "FS_tomb_min": 1.5,
+    "FS_desl_min": 1.5
+  },
+  "notes": [
+    "Cobrimento m\u00ednimo 25 mm (ambiente corrente).",
+    "Verificar comprimentos de ancoragem e emendas conforme di\u00e2metro e ader\u00eancia.",
+    "Ajuste espa\u00e7amentos para atender taxa m\u00ednima/m\u00e1xima."
+  ]
+}

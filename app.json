@@ -1,0 +1,21 @@
+﻿{
+  "expo": {
+    "name": "Murefs",
+    "slug": "murefs",
+    "scheme": "murefs",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "icon": "./assets/icon.png",
+    "web": {
+      "favicon": "./assets/icon.png",
+      "bundler": "metro",
+      "output": "single",
+      "title": "Murefs - Muros de Arrimo"
+    }
+  }
+}
